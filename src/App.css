@@ -26,3 +26,35 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+li {
+  list-style-type: none;
+}
+
+button, input[type=submit] {
+  margin: 5px;
+  background-color: indigo;
+  color: white;
+  border: 1px solid indigo;
+  padding: 5px;
+}
+
+button:hover, input[type=submit]:hover {
+  color: indigo;
+  background-color: white;
+  cursor: pointer;
+}
+
+form {
+  margin-top: 20px;
+}
+
+li span {
+  background-color: aqua;
+  padding: 5px;
+  font-weight: bold;
+}
+
+label input {
+  padding: 5px;
+}

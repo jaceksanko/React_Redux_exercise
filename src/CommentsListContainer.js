@@ -5,4 +5,4 @@ const mapStateToProps = state => ({
     comments: state.comments
 })
 
-export default connect(mapStateToProps)(CommentList);
+export default connect(mapStateToProps)(CommentsList);
